@@ -1,0 +1,176 @@
+/* ===========================
+   TABLET.CSS — Design moderno e profissional para telas entre 769px e 1024px
+=========================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        font-size: 17px;
+        line-height: 1.65;
+        padding: 0 25px;
+        background-color: #f5f5f7;
+        color: #1c1c1e;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    header {
+        padding: 25px 0;
+        text-align: center;
+        background-color: #ffffff;
+        border-bottom: 2px solid #e5e5ea;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+        color: #111;
+    }
+
+    header p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-top: 5px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #0a84ff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #0056d6;
+    }
+
+    #hero {
+        padding: 35px 25px;
+        text-align: center;
+        background-color: #0a84ff;
+        color: #fff;
+        border-radius: 22px;
+        margin-bottom: 25px;
+    }
+
+    #hero h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    #hero p {
+        font-size: 1.15rem;
+        margin-bottom: 18px;
+        line-height: 1.55;
+    }
+
+    #hero ul {
+        text-align: left;
+        padding-left: 22px;
+        margin-bottom: 18px;
+    }
+
+    #hero a {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #ff375f;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    #hero a:hover {
+        background-color: #c5003f;
+        transform: scale(1.05);
+    }
+
+    section h3, section h4 {
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+        color: #111;
+    }
+
+    section p, section li, dl dd {
+        font-size: 1.05rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    blockquote {
+        border-left: 4px solid #0a84ff;
+        padding-left: 15px;
+        font-style: italic;
+        color: #444;
+        margin: 18px 0;
+    }
+
+    cite {
+        font-size: 0.9rem;
+        color: #777;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        padding: 22px;
+        background-color: #ffffff;
+        border-radius: 18px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    form label {
+        font-weight: 600;
+        color: #111;
+    }
+
+    form input, form select, form button {
+        padding: 13px 16px;
+        border-radius: 10px;
+        font-size: 1.05rem;
+        border: 1px solid #d0d0d0;
+    }
+
+    form button {
+        background-color: #ff375f;
+        color: #fff;
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    form button:hover {
+        background-color: #c5003f;
+        transform: scale(1.03);
+    }
+
+    footer {
+        padding: 28px 0;
+        text-align: center;
+        font-size: 0.95rem;
+        color: #555;
+        background-color: #f7f7f8;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    footer a {
+        color: #0a84ff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+        color: #0056d6;
+    }
+}
